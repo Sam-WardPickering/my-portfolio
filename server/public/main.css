@@ -1,8 +1,21 @@
 .header-container {
-    display: flex;
-    justify-content: center;
+   display: flex;
+   background-color: beige;
+  
+}
+
+.header-name {
+    text-align: left;
 }
 
 body {
     background-color: #f8e5e5;
+}
+
+.link-icons {
+   justify-content: right;
+}
+.github-icon {
+    width: 30px;
+
 }
