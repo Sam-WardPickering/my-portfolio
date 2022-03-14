@@ -1,12 +1,19 @@
 import React from 'react'
 
 import Header from './Header'
-// import Footer from './Footer'
+import Main from './Main'
+import Skills from './Skills'
+import MoreAboutMe from './MoreAboutMe'
 
 function App () {  
   return (
     <>
     <Header />
+    <Main />
+    <MoreAboutMe />
+    <Skills />
+    
+
     
     </>
   )
