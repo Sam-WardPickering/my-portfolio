@@ -1,12 +1,19 @@
 import React from "react";
+import { GiHamburgerMenu } from 'react-icons/all'
 
 function Header () {
     return(
         <div className="header-container">
             <h1 className="header-name">Sam Ward-Pickering</h1>
-            <div className="link-icons">
-                <img className="github-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1024px-Octicons-mark-github.svg.png" alt="linkedin icon"/>
-            </div>
+            <ul className="link-list">
+                <li><a href="#about" className="nav-link">About</a></li>
+                <li><a href="#skills" className="nav-link">Skills</a></li>
+                <li><a href="#projects" className="nav-link">Projects</a></li>
+                <li><a href="#contact" className="nav-link">Contact</a></li>
+            </ul>
+            <button className="burger-menu" id="burger-menu">
+                <GiHamburgerMenu/>
+            </button>
             
         </div>
     )
